@@ -12,7 +12,7 @@ const io = new Server(server, {
   cors: {
     // origin: "http://localhost:3000",
     // origin: "https://schedule-a-meeting-client.vercel.app/",
-    origin: "https://schedule-a-meeting-client.onrender.com/newMeeting",
+    origin: "https://schedule-a-meeting-client.onrender.com",
     //origin: "*",
     methods: ["GET", "POST"],
     allowedHeaders: ['Content-Type', 'Authorization'],
